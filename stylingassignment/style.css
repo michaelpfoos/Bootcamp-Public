@@ -1,0 +1,32 @@
+h1 {
+    background-color: black;
+    color: white;    
+    font-family: sans-serif;
+    text-align: center;
+    padding: 1em 0;
+}
+
+span {
+    color: aqua;
+    padding: 1em 0;
+    font-family: inherit;       
+}
+
+p {
+    background-color: blueviolet;
+    color: white;
+    padding: 1em 0;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-family: Didot, serif;
+    text-align: center;
+}
+
+a {
+    display: block;
+    background-color: #97D5FF;
+    text-align: right;
+    padding: 1em 1em;
+    font-family: sans-serif;
+    color: black;       
+}
