@@ -1,0 +1,31 @@
+button {
+    display: block;
+    margin: .5em;
+}
+
+#search {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    border-radius: 10px;
+    border: .1em solid #20b022;   
+    background-color: rgb(253, 251, 251);
+    padding: .2em 2.5em;
+    color: #20b022;
+}
+
+#plus {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    background-color: #20b022;
+    border: .1em none rgb(255, 255, 255);   
+    border-radius: 50%;    
+    padding: .2em .5em .3em .5em; /*I just didn't like the way this looked when I had it centered so I pushed it up a bit*/    
+}
+
+#CreateAccount {
+    color: white;
+    padding: .2em 1.5em;
+    background-color: #0022ff;
+    border: .1em solid black;
+    box-shadow: .15em .15em black;
+}
