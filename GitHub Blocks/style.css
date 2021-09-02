@@ -1,0 +1,57 @@
+img {
+    height: 200px;
+}
+
+p {
+    text-align: center;
+    font-family: serif;
+}
+
+#container {
+    margin: auto;    
+    width: 850px;
+}
+
+h1 {
+    text-align: center;
+    background-color: white;
+    color: darkolivegreen;
+    font-family: sans-serif;
+    font-size: 3em;
+}
+
+#row1 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: darkseagreen;     
+    margin: 2% 0% 2% 0%;   
+}
+
+#row1 > img {
+    margin: 2% 5% 2% 5%;
+}
+
+#row2 {
+    display: flex;
+    justify-content: space-evenly;  
+    background-color: darkcyan;      
+    /*top right bottom left*/
+    margin: 2% 0% 2% 0%;      
+}
+
+#row2 > img {
+    margin: 2% 5% 2% 5%; 
+}
+
+#row3 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: brown;    
+    margin: 2% 0% 2% 0%;       
+}
+
+#row3 > img {
+    margin: 2% 5% 2% 5%; 
+}
+
+
