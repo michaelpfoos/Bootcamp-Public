@@ -1,0 +1,48 @@
+* {
+    color: white;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    background-color: rgb(92, 90, 90);
+    height: 3em;
+}
+
+h1 {
+    font-size: 2em;
+    margin-left: 1em;
+    font-weight: bolder;
+}
+
+a {
+    text-decoration: none;      
+}
+
+a:hover {    
+    color: rgb(151, 135, 135); 
+}
+
+a:active {
+   color: rgb(75, 67, 67); 
+}
+
+.nav-links > li {
+    display: inline;  
+    padding-left: 1em;  
+    text-decoration: none;
+    margin-right: 1em;
+}
+li > .btn {
+    background-color: rgb(28, 130, 161);
+    border: .1em solid black;
+    padding: .2em .75em .2em .75em;
+}
+
+li > .btn:active {
+    background-color: rgb(4, 57, 73);
+}
