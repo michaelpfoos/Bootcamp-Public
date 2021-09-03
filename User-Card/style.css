@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    height: 9em;
+    background-color: rgb(8, 100, 69);        
+}
+
+#profilepic {
+    height: 9em;
+    position: relative;
+    top: 4em;   
+    left: 2em;
+}
+
+#profile {
+    margin-top: 5em;
+    margin-left: 2em;
+}
+
+.icon {
+    height: 1em;
+}
+
+p {
+    font-weight: bold;    
+}
+
+h1 {
+    margin-bottom: .25em;
+}
+
+#personheader {
+    margin-top: .7em;
+    margin-bottom: .7em;
+}
+
