@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet"> 
+    <title>Profile Page</title>
+</head>
+<body>
+    <div class="nav">
+        <div id="nav_flex"> 
+            <div id="nav_profile">
+                <h1 class="nav-title">Profile</h1>
+            </div>
+            <div id="nav_links">
+                <ul class="ul_nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#" class="active">My Profile</a></li>
+                    <li><a href="#">Find Connections</a></li>
+                </ul>
+            </div>
+            <div id="nav_signout">
+                <button  class="btn">Sign Out</button>
+            </div>
+        </div>
+    </div>
+    <div id="main_flex">
+        <div id="column_1">
+            <div id="user_card">
+                <div id="header">
+                    <img src="imgs/user-circle.png" alt="profile picture" id="profilepic">
+                </div>
+                <div id="profile_container">
+                    <div id="profile">
+                        <h1>Jane Doe</h1>      
+                        <img src="imgs/map-marker.png" alt="map marker" class="icon">
+                        <span>Seattle</span>
+                        <div id="personheader">
+                            <p>Developer | Engineer | Problem Solver</p>
+                            <p>Master of shadows and the Internet!</p>
+                        </div>        
+                        <img src="imgs/gear.png" alt="Edit Profile" class="icon">
+                        <a href="#header">edit profile</a>
+                    </div> 
+                </div>  
+            </div>
+            <div id="education_parent">
+                <div id="education_header">
+                    <h2>Education</h2>
+                </div>
+                <div id="education_container">
+                    <div id="education_content">
+                        <h3>Coding Dojo - Full Stack Bootcamp</h3>
+                        <p id="education_date">Dec 2019 - Mar 2020</p>  
+                        <p>Triple black belt in Python, MERN, and C#...</p>                      
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="column_2">
+            <div id="connection_request_parent">
+                <div id="connection_request_header">
+                    <span>2</span>
+                    <h2>Connection Requests</h2>
+                </div>
+                <div id="connection_request_container">
+                    <div class="connection_request_content">                      
+                        <div>
+                            <img class="connection_avatar" src="imgs/todd-s.jpg" alt="Todd S">
+                            <p class="connection_name">Todd E</p>
+                        </div>
+                        <div>
+                            <img class="accept_request" src="imgs/accept-circle.png" alt="Accept Friend Request">
+                            <img class="decline_request" src="imgs/close-circle.png" alt="Decline Friend Request">
+                        </div>
+                    </div>
+                    <div class="connection_request_content">                      
+                        <div>
+                            <img class="connection_avatar" src="imgs/phil-s.jpg" alt="Phil S">
+                            <p class="connection_name">Phil S</p>
+                        </div>
+                        <div>
+                            <img class="accept_request" src="imgs/accept-circle.png" alt="Accept Friend Request">
+                            <img class="decline_request" src="imgs/close-circle.png" alt="Decline Friend Request">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ignore this section for now  -->
+            <div id="your_connections_parent">
+                <div id="your_connections_header">
+                    <span>500+</span>
+                    <h2>Your Connections</h2>
+                </div>
+                <div id="your_connections_container">
+                    <div class="your_connection_content">
+                        <img class="connection_avatar" src="imgs/adrien-s.jpg" alt="Adrien S">
+                            <p class="connection_name">Adrien S</p>                        
+                    </div>
+                    <div class="your_connection_content">
+                        <img class="connection_avatar" src="imgs/anne-s.jpg" alt="Anne S">
+                            <p class="connection_name">Anne S</p>                        
+                    </div>
+                    <div class="your_connection_content">
+                        <img class="connection_avatar" src="imgs/alayne-s.jpg" alt="Alayne s">
+                            <p class="connection_name">Alayne s</p>                        
+                    </div>
+                    <div class="your_connection_content">
+                        <img class="connection_avatar" src="imgs/jane-m.jpg" alt="Jane M">
+                            <p class="connection_name">Jane M</p>                        
+                    </div>
+                </div>              
+                <div id="your_connections_sub_container">
+                    <a href="#">View More</a>
+                </div>
+            </div>    
+        </div>      
+    </div>
+</body>
+</html>
