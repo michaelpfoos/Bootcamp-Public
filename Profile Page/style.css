@@ -98,7 +98,7 @@
 }
 
 #nav_links > ul > li > a {   
-     text-decoration: none;          
+    text-decoration: none;          
 }
 
 #nav_links > ul > li > a:hover {    
@@ -106,7 +106,7 @@
 }
 
 #nav_links > ul > li > a:active {
-   color: rgb(75, 67, 67); 
+    color: rgb(75, 67, 67); 
 }
 
 #nav_links > ul > li {
@@ -149,7 +149,6 @@
 }
 
 /* education section */
-
 #education_header {
     display: flex;
     margin-top: 2em;
@@ -166,8 +165,7 @@
 
 #education_container {
     border-left: .3em solid rgb(185, 179, 179);
-    border-right: .3em solid rgb(185, 179, 179);
-    /* comment this out if they want no border */
+    border-right: .3em solid rgb(185, 179, 179);    
     border-bottom: .3em solid rgb(185, 179, 179);
     border-bottom-right-radius: .3em;
     border-bottom-left-radius: .3em;   
@@ -219,7 +217,7 @@
 }
 
 #connection_request_container {
-     border-left: .3em solid rgb(185, 179, 179);
+    border-left: .3em solid rgb(185, 179, 179);
     border-right: .3em solid rgb(185, 179, 179);
     border-bottom: .3em solid rgb(185, 179, 179);   
     border-bottom-right-radius: .3em;
