@@ -1,0 +1,137 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  /* Fixed width container class that will "auto-center" itself */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.container-fluid {
+  width: 100%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .container-fluid {
+    width: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+}
+
+.btn {
+  color: white;
+  padding: .2em 1.5em;
+  background-color: #0022ff;
+  border: .1em solid black;
+  box-shadow: .15em .15em black;
+}
+
+.row {
+  display: flex; 
+  height: 100px;
+  line-height: 100px;
+  justify-content: space-evenly;  
+  margin-top: 1em;  
+  margin-bottom: 1em;  
+}
+
+.col {
+  flex: 1;
+  /* background-color: cadetblue;     */
+  color: white;    
+  margin-right: 1em;
+  margin-left: 1em;  
+  text-indent: 1em;
+}
+
+.col-2 {
+  flex: 2;
+  /* background-color: cadetblue;     */
+  color: white;    
+  margin-right: 1em;
+  margin-left: 1em;  
+  text-indent: 1em;
+}
+
+.col-3 {
+  flex: 3;
+  /* background-color: cadetblue;     */
+  color: white;    
+  margin-right: 1em;
+  margin-left: 1em;  
+  text-indent: 1em;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  background-color: rgb(92, 90, 90);
+  height: 3em;
+}
+
+.nav-header {
+  font-size: 2em;
+  margin-left: 1em;
+  font-weight: bolder;
+}
+
+.nav * {
+  color: white; 
+}
+
+.nav-link {
+  text-decoration: none;      
+}
+
+.nav-link:hover {    
+  color: rgb(151, 135, 135); 
+}
+
+.nav-link:active {
+ color: rgb(75, 67, 67); 
+}
+
+.nav-link-container {
+  display: inline;  
+  padding-left: 1em;  
+  text-decoration: none;
+  margin-right: 1em;
+}
+.signout-btn {
+  background-color: rgb(28, 130, 161);
+  border: .1em solid black;
+  padding: .2em .75em .2em .75em;
+}
+
+.signout-btn {
+  background-color: rgb(4, 57, 73);
+}
+
+.p-1 {
+  font-size: 1em;  
+}
+
+.p-2 {
+  font-size: 1.5em;
+}
+
+.p-3 {
+  font-size: 2em;
+}
+
+.font-black {
+  color: black;
+}
