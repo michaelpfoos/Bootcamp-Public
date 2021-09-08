@@ -59,7 +59,7 @@
     box-shadow: .125em .125em black;
 }
 
-#flex_main_content {
+.flex_main_content {
     margin-left: 10%;
     margin-right: 10%;
     display: flex;
