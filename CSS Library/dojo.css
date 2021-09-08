@@ -47,8 +47,7 @@
 }
 
 .col {
-  flex: 1;
-  /* background-color: cadetblue;     */
+  flex: 1;  
   color: white;    
   margin-right: 1em;
   margin-left: 1em;  
@@ -56,8 +55,7 @@
 }
 
 .col-2 {
-  flex: 2;
-  /* background-color: cadetblue;     */
+  flex: 2;  
   color: white;    
   margin-right: 1em;
   margin-left: 1em;  
@@ -65,8 +63,7 @@
 }
 
 .col-3 {
-  flex: 3;
-  /* background-color: cadetblue;     */
+  flex: 3; 
   color: white;    
   margin-right: 1em;
   margin-left: 1em;  

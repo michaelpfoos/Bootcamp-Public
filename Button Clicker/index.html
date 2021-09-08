@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Button Clicker</title>
+</head>
+<body>
+    <nav id="nav">       
+        <h1>Dojonary</h1>        
+        <div class="nav_search">
+            <input type="text" name="search" id="search" placeholder="search">
+        </div>
+        <div class="nav_login">
+            <button name="login" id="login" onclick="login_logout(this)">Login</button>
+        </div>
+    </nav>
+    <div id="flex_main_content">
+        <div class="flex_sub_content">
+            <div class="flex_inner_content">
+                <div class="ninja_like">
+                    <h2>ninja</h2>
+                    <p class="p-centered"><em>noun</em></p>
+                    <p class="p-left">Plural:<em>ninjas</em></p>
+                    <button class="like_button" onclick="ninja_like(this)"><span>13</span> likes</button>
+                </div>
+                <div class="ninja_definition">
+                    <p>A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a> </p>
+                </div>
+            </div>
+        </div>        
+        <div id="flex_sidebar">
+            <div id="sidebar_content">
+                <p>Dojonary is defined by <strong>YOU</strong></p>
+                <button onclick="delete_me(this)">Add Definition</button>
+            </div>
+        </div>
+    </div>
+    <div id="flex_main_content">
+        <div class="flex_sub_content">
+            <div class="flex_inner_content">
+                <div class="ninja_like">
+                    <h2>ninja</h2>
+                    <p class="p-centered"><em>noun</em></p>
+                    <p class="p-left">Plural:<em>ninjas</em></p>
+                    <button class="like_button" onclick="ninja_like(this)" ><span>37</span> likes</button>
+                </div>
+                <div class="ninja_definition">
+                    <p>A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</p>
+                </div>
+            </div>
+        </div>        
+        <div class="empty_flex_sidebar"></div>
+        </div>
+    </div>
+
+<script src="scripts.js"></script>
+</body>
+</html>

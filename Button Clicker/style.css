@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+::placeholder {
+    color: gray;
+}
+
+#nav {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex; 
+    flex-flow: wrap;
+    justify-content: space-between;  
+    align-content: center;
+    min-height: 3em;
+    padding-top: .25em;
+    padding-bottom: .25em; 
+    background-color: rgb(182, 179, 179);
+    margin-bottom: 1em;
+}
+
+#nav > h1 {
+    font-size: 2em;
+    font-family: serif;    
+    flex: 1;
+    margin-left: 1em;
+    align-self: center;
+}
+
+.nav_search {
+    flex: 3;
+    align-self: center;
+    text-align: center;
+}
+
+#search {
+    border: .15em solid black;     
+    padding-left: .25em;
+    padding-bottom: .15em;
+    width: 80%;
+    min-width: 70px;
+}
+
+.nav_login {
+    flex: 1;
+    align-self: center;
+    text-align: right;
+    margin-right: 1em;    
+}
+
+#login {
+    padding-right: 1em;
+    padding-left: 1em;
+    background-color: blue;
+    color: white;
+    border: .15em solid black;
+    box-shadow: .125em .125em black;
+}
+
+#flex_main_content {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+}
+
+.flex_sub_content {
+    flex: 3;
+    padding-left: 1em;    
+    border: .25em solid black;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+#flex_sidebar {
+    flex: 2;
+    border-left: .25em solid white;
+    margin-left: 1em;
+    margin-bottom: 1em;           
+}
+
+#sidebar_content {
+    display: flex;    
+    flex-flow: column;
+    align-items: center;       
+    border: .25em solid black;     
+}
+
+#flex_sidebar > div > p {      
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+#flex_sidebar > div >  button {
+    padding-top: .25em;
+    padding-bottom: .25em;
+    padding-right: 3em;
+    padding-left: 3em;
+    margin-bottom: 1em;    
+    margin-left: 1em;
+    margin-right: 1em;
+    background-color: yellowgreen;
+    border: .1em solid black;
+    box-shadow: .15em .15em black;
+}
+
+.empty_flex_sidebar {
+    flex: 2;    
+    margin-left: 1em;
+    margin-bottom: 1em;
+    border-left: .25em solid white;    
+}
+
+.ninja_like > .p-centered {
+    margin-left: 1em;    
+    font-weight: bold;
+}
+
+.flex_inner_content {
+    display: flex; 
+    align-content: flex-start;       
+    align-items: center;
+}
+
+.ninja_like {
+    flex: 1;
+}
+
+.ninja_like > h2 {
+    margin-top: .5em;
+    font-size: 2em;
+}
+
+.ninja_definition {
+    flex: 4;
+}
+
+.like_button {
+    padding-top: .15em;
+    padding-bottom: .15em;
+    padding-right: 1em;
+    padding-left: 1em;
+    border: .1em solid black;
+    box-shadow: .15em .15em black;
+    margin-top: 1em;
+    margin-bottom: 1em;   
+    background-color: goldenrod;
+}
+
+.ninja_definition > p {
+    text-align: center; 
+    font-weight: bold;   
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+.p-left {
+    font-size: .85em;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
