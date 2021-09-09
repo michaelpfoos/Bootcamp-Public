@@ -1,0 +1,377 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;    
+}
+
+/*User Card CSS*/
+#profile_container {
+    border-left: .3em solid rgb(185, 179, 179);
+    border-right: .3em solid rgb(185, 179, 179);
+    border-bottom: .3em solid rgb(185, 179, 179);
+    border-bottom-right-radius: .3em;
+    border-bottom-left-radius: .3em;   
+    padding: 1em;
+}
+
+#header {
+    height: 9em;
+    background-color: rgb(8, 100, 69);        
+}
+
+#profilepic {
+    height: 9em;
+    position: relative;
+    top: 4em;   
+    left: 3em;     
+}
+
+#profile {
+    margin-top: 5em;
+    margin-left: 2em;
+}
+
+@media only screen and (max-width: 600px) {
+    #profilepic {        
+        left: 1em;     
+    }
+    
+    #profile {
+        margin-left: 0;
+    }
+  }
+
+.icon {
+    height: 1em;
+    vertical-align: bottom;
+}
+
+#personheader > p {
+    font-weight: bold;    
+}
+
+#profile > h1 {
+    margin-bottom: .25em;
+}
+
+#profile > span {
+    margin-left: .4em;
+    font-weight: bold;
+}
+
+#personheader {
+    margin-top: .7em;
+    margin-bottom: .7em;
+}
+/*CSS for Nav*/
+.nav * {
+    color: white;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;    
+}
+.nav {  
+    background-color: rgb(92, 90, 90);
+    height: 3em; 
+    width: 100%;   
+}
+
+.nav > div {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#nav_flex {
+    display: flex; 
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+}
+
+#nav_profile {
+    flex: 1;
+}
+
+#nav_links {
+    flex: 9;   
+}
+
+#nav-signout {
+    flex: 1;
+}
+
+.nav-title {
+    font-size: 2em;
+    margin-left: 1em;
+    font-weight: bolder;
+}
+
+#nav_links > ul > li > a {   
+    text-decoration: none;          
+}
+
+#nav_links > ul > li > a:hover {    
+    color: rgb(151, 135, 135); 
+}
+
+#nav_links > ul > li > a:active {
+    color: rgb(75, 67, 67); 
+}
+
+#nav_links > ul > li {
+    display: inline;  
+    padding-left: 1em;  
+    text-decoration: none;
+    margin-right: .25em;   
+    margin-left: .25em;     
+}
+
+.btn {
+    background-color: rgb(28, 130, 161);
+    border: .1em solid black;   
+    padding: .4em 1.5em .4em 1.5em;     
+}
+
+.btn:active {
+    background-color: rgb(4, 57, 73);
+}
+
+#main_flex {    
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+#column_1 {
+    order: 1;
+    flex: 5;
+    
+}
+
+#column_2 {
+    order: 2;
+    flex: 3;
+    margin-left: 2em;   
+}
+
+/* education section */
+#education_header {
+    display: flex;
+    margin-top: 2em;
+    height: 3em;
+    background-color: rgb(8, 100, 69);          
+}
+
+#education_header > h2 {
+    display: inline-block;    
+    color: white;     
+    align-self: center;   
+    margin-left: 2em;  
+}
+
+#education_container {
+    border-left: .3em solid rgb(185, 179, 179);
+    border-right: .3em solid rgb(185, 179, 179);    
+    border-bottom: .3em solid rgb(185, 179, 179);
+    border-bottom-right-radius: .3em;
+    border-bottom-left-radius: .3em;   
+    padding: 1em;    
+}
+
+#education_content  {    
+    margin-left: 2em;  
+}
+
+#education_content > h3 {
+    font-size: 1.5em;
+}
+
+#education_content > #education_date {
+    color: gray;
+    font-weight: bold;    
+    margin-top: 0;
+}
+
+#education_content > p {
+    margin-top: .5em;
+    font-weight: bold;   
+}
+
+@media only screen and (max-width: 600px) {
+    #education_container {
+        padding: .2em;
+    }
+
+    #education_header > h2 {
+        margin-left: .5em;        
+    }
+
+    #education_content {
+        margin-left: .5em;
+    }
+}
+
+/* Connection Request Section */
+#connection_request_header {
+    display: flex;    
+    justify-content: center;
+    height: 3em;
+    background-color: rgb(8, 100, 69);   
+}
+
+#connection_request_header > span {    
+    align-self: center; 
+    color: black;
+    background-color: white;
+    margin-left: 1em;
+    padding-right: .25em;
+    padding-left: .25em;   
+    border-radius: 50%;    
+
+}
+
+#connection_request_header > h2 {     
+    margin-left: .25em;
+    align-self: center;
+    color: white;
+}
+
+#connection_request_container {
+    border-left: .3em solid rgb(185, 179, 179);
+    border-right: .3em solid rgb(185, 179, 179);
+    border-bottom: .3em solid rgb(185, 179, 179);   
+    border-bottom-right-radius: .3em;
+    border-bottom-left-radius: .3em;   
+    padding: 1em; 
+}
+
+@media only screen and (max-width: 600px) {
+    #connection_request_container {
+        padding: .1em; 
+    }
+  }
+
+.connection_request_content {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Shared with Connections Section */
+.connection_avatar {
+    height: 3em;
+    border-radius: 50%;
+    align-items: center;    
+}
+
+.connection_name {  
+    display: inline;    
+    font-size: 1.75em;
+    font-weight: bold; 
+    vertical-align: .8em;  
+    margin-left: .5em;     
+}
+
+@media only screen and (max-width: 600px) {
+    .connection_name {           
+        margin-left: 0;     
+    }
+  }
+
+.accept_request {
+    height: 3em;    
+}
+
+.decline_request {
+    height: 3em;    
+}
+
+/* Your Connections Section */
+#your_connections_header {
+    margin-top: 2em;
+    display: flex;    
+    justify-content: center;
+    height: 3em;
+    background-color: rgb(8, 100, 69);   
+}
+
+#your_connections_header > span {    
+    align-self: center; 
+    color: black;
+    background-color: white;
+    margin-left: 1em;
+    padding: .25em; 
+    border-radius: 50%;    
+
+}
+
+#your_connections_header > h2 {     
+    margin-left: .25em;
+    align-self: center;
+    color: white;
+}
+
+#your_connections_container {
+    border-left: .3em solid rgb(185, 179, 179);
+    border-right: .3em solid rgb(185, 179, 179);
+    border-bottom: .3em solid rgb(185, 179, 179);    
+    padding: 1em; 
+}
+
+@media only screen and (max-width: 600px) {
+    #your_connections_container {
+        padding: .2em;
+    }
+}
+
+#your_connections_sub_container {
+    border-left: .3em solid rgb(185, 179, 179);
+    border-right: .3em solid rgb(185, 179, 179);
+    border-bottom: .3em solid rgb(185, 179, 179);   
+    border-bottom-right-radius: .3em;
+    border-bottom-left-radius: .3em;   
+    padding: 1em; 
+}
+
+
+.your_connection_content {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: .25em;
+}
+
+
+@media only screen and (max-width: 500px) {
+    #nav_signout > button {
+        padding: .1em;
+    }
+
+    .nav {
+        height: auto;
+    }
+
+    #nav_links > ul > li {
+        margin-left: 1em;
+        margin-right: 0;
+        margin-bottom: .25em;
+        padding-left: .1em;
+        display: block;
+        font-size: em;        
+    }
+
+    .nav-title {
+        margin-left: 0;
+    }
+
+    #column_2 {
+        margin-left: 0;
+        margin-top: 1em;
+    }
+}
+
+
+
+
+
