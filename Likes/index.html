@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="dojo.css">
+    <title>Likes</title>
+</head>
+<body>
+    <div class="container-768">
+        <div class="nav">
+            <h1 class="nav-header">Network</h1>           
+        </div>
+        <h1 class="text-center" id="page_header">Your Feed</h1>
+        <!-- This is where the division needs to be -->
+        <div id="left_column">
+            <div id="avatar_container">
+                <img src="imgs/user-circle.png" alt="avatar" id="user_avatar" class="margin-top-1 margin-bottom-1">
+                <a href="#" class="margin-top-1 margin-bottom-1">Add on avatar</a>
+                <h2 class="margin-top-1 margin-bottom-1">James Doe</h2>
+            </div>
+        </div>
+        <div id="right_column">
+            <div class="user_container margin-bottom-1">
+                <div class="row-space-between">
+                    <p class="col-2 bold">Neil M</p>            
+                    <p class="col text-right bold"><span>3</span> like(s)</p>
+                    <div class="col">
+                        <input type="button" value="Like" class="col btn bold" onclick="like(this)"> 
+                    </div>
+                </div>  
+                <p class="p-1 margin-left-1 bold">I just set up this new dicord bot, let me know what you all think.  <a href="#">link</a></p>
+            </div>
+            <div class="user_container margin-bottom-1">
+                <div class="row-space-between">
+                    <p class="col-2 bold">Nichole K</p>            
+                    <p class="col text-right bold"><span>3</span> like(s)</p>
+                    <div class="col">
+                        <input type="button" value="Like" class="col btn bold" onclick="like(this)"> 
+                    </div>
+                </div>  
+                <p class="p-1 margin-left-1 bold">Just finished my next <a href="#">comic</a>, check it out.</p>
+            </div>
+            <div class="user_container margin-bottom-1">
+                <div class="row-space-between">
+                    <p class="col-2 bold">Jim R</p>            
+                    <p class="col text-right bold"><span>3</span> like(s)</p>
+                    <div class="col">
+                        <input type="button" value="Like" class="col btn bold" onclick="like(this)"> 
+                    </div>
+                </div>  
+                <p class="p-1 margin-left-1 bold">I can't stop listening to the <a href="#">new album</a>.  Who else is liking it?</p>
+            </div>            
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

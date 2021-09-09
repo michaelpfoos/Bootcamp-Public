@@ -23,14 +23,23 @@
     height: 9em;
     position: relative;
     top: 4em;   
-    left: 3em;
-    
+    left: 3em;     
 }
 
 #profile {
     margin-top: 5em;
     margin-left: 2em;
 }
+
+@media only screen and (max-width: 600px) {
+    #profilepic {        
+        left: 1em;     
+    }
+    
+    #profile {
+        margin-left: 0;
+    }
+  }
 
 .icon {
     height: 1em;
@@ -127,7 +136,7 @@
     background-color: rgb(4, 57, 73);
 }
 
-#main_flex {
+#main_flex {    
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 1%;
@@ -191,6 +200,20 @@
     font-weight: bold;   
 }
 
+@media only screen and (max-width: 600px) {
+    #education_container {
+        padding: .2em;
+    }
+
+    #education_header > h2 {
+        margin-left: .5em;        
+    }
+
+    #education_content {
+        margin-left: .5em;
+    }
+}
+
 /* Connection Request Section */
 #connection_request_header {
     display: flex;    
@@ -223,8 +246,13 @@
     border-bottom-right-radius: .3em;
     border-bottom-left-radius: .3em;   
     padding: 1em; 
-
 }
+
+@media only screen and (max-width: 600px) {
+    #connection_request_container {
+        padding: .1em; 
+    }
+  }
 
 .connection_request_content {
     display: flex;
@@ -245,6 +273,12 @@
     vertical-align: .8em;  
     margin-left: .5em;     
 }
+
+@media only screen and (max-width: 600px) {
+    .connection_name {           
+        margin-left: 0;     
+    }
+  }
 
 .accept_request {
     height: 3em;    
@@ -286,6 +320,12 @@
     padding: 1em; 
 }
 
+@media only screen and (max-width: 600px) {
+    #your_connections_container {
+        padding: .2em;
+    }
+}
+
 #your_connections_sub_container {
     border-left: .3em solid rgb(185, 179, 179);
     border-right: .3em solid rgb(185, 179, 179);
@@ -295,11 +335,42 @@
     padding: 1em; 
 }
 
+
 .your_connection_content {
     display: flex;
     justify-content: flex-start;
     margin-bottom: .25em;
 }
+
+
+@media only screen and (max-width: 500px) {
+    #nav_signout > button {
+        padding: .1em;
+    }
+
+    .nav {
+        height: auto;
+    }
+
+    #nav_links > ul > li {
+        margin-left: 1em;
+        margin-right: 0;
+        margin-bottom: .25em;
+        padding-left: .1em;
+        display: block;
+        font-size: em;        
+    }
+
+    .nav-title {
+        margin-left: 0;
+    }
+
+    #column_2 {
+        margin-left: 0;
+        margin-top: 1em;
+    }
+}
+
 
 
 
