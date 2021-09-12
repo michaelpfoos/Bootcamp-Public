@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="dojo.css">
+    <title>Dojo Weather</title>
+</head>
+<body>
+    <div class="nav-background">
+        <div class="nav">
+            <h1 class="nav-header">DojoWeather</h1>
+            <ul class="nav-links">
+                <li class="nav-link-container">
+                    <a class="nav-link" href="#" onclick="weatherAlert()">Burbank</a></li>
+                <li class="nav-link-container">
+                    <a class="nav-link" href="#" onclick="weatherAlert()">Chicago</a></li>
+                <li class="nav-link-container">
+                    <a class="nav-link" href="#" onclick="weatherAlert()">Dallas</a></li>                          
+            </ul>
+        </div> 
+    </div>  
+    <div id="dojo_container">
+        <div id="city-header">
+            <h1>San Jose</h1>  
+            <div id="show_temp_container">
+                <p>show temperature in</p> 
+                <select name="temp_type" id="temp_type">
+                    <option value="celsius">°C</option>
+                    <option value="fahrenheit">°F</option>
+                </select>    
+            </div>            
+        </div>  
+        <div id="border_line"></div>
+        <div id="forecast_flex">
+            <div class="day">
+                <h2>Today</h2>
+                <img src="images/some_rain.png" alt="some rain">
+                <p>some rain</p>
+                <div class="high_low_flex">
+                    <p class="high">24°</p>
+                    <p class="low">18°</p>
+                </div>
+            </div>
+            <div class="day">
+                <h2>Tomorrow</h2>
+                <img src="images/some_sun.png" alt="some sun">
+                <p>some sun</p>
+                <div class="high_low_flex">
+                    <p class="high">27°</p>
+                    <p class="low">19°</p>
+                </div>
+            </div>
+            <div class="day">
+                <h2>Friday</h2>
+                <img src="images/some_clouds.png" alt="some clouds">
+                <p>some clouds</p>
+                <div class="high_low_flex">
+                    <p class="high">21°</p>
+                    <p class="low">16°</p>
+                </div>
+            </div>
+            <div class="day">
+                <h2>Saturday</h2>
+                <img src="images/some_sun.png" alt="some sun">
+                <p>some clouds</p>
+                <div class="high_low_flex">
+                    <p class="high">26°</p>
+                    <p class="low">21°</p>
+                </div>
+            </div>
+        </div>
+        <div id="cookie_time_container">
+            <div id="cookie_time">
+                <img src="images/cookie.png" alt="cookie">
+                <div id="cookie_text">
+                    <h3>Stop! Cookie time</h3>
+                    <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social mdeia features and to analyse our traffic. <a href="#">Read more...</a></p>
+                </div>
+                <button id="btn_accept" onclick="dismissAlert()">I Accept</button>
+            </div>
+        </div>
+    </div> 
+    <script src="scripts.js"></script> 
+</body>
+</html>

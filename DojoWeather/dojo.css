@@ -1,0 +1,191 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  /* Fixed width container class that will "auto-center" itself */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.container-1080 {
+  width: 1080px;
+  margin: 0 auto;
+}
+
+.container-768 {
+  width: 768px;
+  margin: 0 auto;
+}
+
+.container-fluid {
+  width: 100%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .container-fluid {
+    width: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+}
+
+.btn {  
+  padding: .2em 1.5em;  
+  border: .1em solid black;
+  box-shadow: .15em .15em black;
+}
+
+.row {
+  display: flex;   
+  justify-content: space-evenly;  
+  margin-top: 1em;  
+  margin-bottom: 1em;  
+}
+
+.row-space-between {
+    display: flex;   
+    justify-content: space-between;  
+    margin-top: 1em;  
+    margin-bottom: 1em;  
+  }
+
+.col {
+  flex: 1;   
+}
+
+.col-2 {
+  flex: 2; 
+}
+
+.col-3 {
+  flex: 3;  
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  height: 3em;
+  margin-left: 20%;
+  margin-right: 20%;  
+}
+
+.nav-background {
+  background-color: rgb(111, 191, 223);
+}
+
+.nav-header {
+  font-size: 2em;  
+  font-weight: bolder;
+}
+
+.nav * {
+  color: white;   
+}
+
+.nav-link {
+  text-decoration: none;    
+  font-size: 1.5em;  
+}
+
+.nav-link:hover {    
+  color: rgb(151, 135, 135); 
+}
+
+.nav-link:active {
+ color: rgb(75, 67, 67); 
+}
+
+.nav-link-container {
+  display: inline;  
+  padding-left: 1em;  
+  text-decoration: none;
+  margin-right: 1em;
+}
+
+.p-1 {
+  font-size: 1em;  
+}
+
+.p-2 {
+  font-size: 1.5em;
+}
+
+.p-3 {
+  font-size: 2em;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.bolder {
+  font-weight: bolder;
+}
+
+.font-black {
+  color: black;
+}
+
+.margin-left-1 {
+  margin-left: 1em;
+}
+
+.margin-left-2 {
+  margin-left: 2em;
+}
+
+.margin-left-3 {
+  margin-left: 3em;
+}
+
+.margin-right-1 {
+  margin-right: 1em;
+}
+
+.margin-right-2 {
+  margin-right: 2em;
+}
+
+.margin-right-3 {
+  margin-right: 2em;
+}
+
+.margin-top-1 {
+  margin-top: 1em;
+}
+
+.margin-top-2 {
+  margin-top: 2em;
+}
+
+.margin-bottom-1 {
+  margin-bottom: 1em;  
+}
+
+.margin-bottom-2 {
+  margin-bottom: 2em;  
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}

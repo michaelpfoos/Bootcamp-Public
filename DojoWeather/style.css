@@ -1,0 +1,164 @@
+#dojo_container {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-family: Arial, sans-serif
+}
+
+.weather-circle {
+    height: .25em;
+    width: .25em;
+    border: .1em solid black;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#temp_type {    
+    border: 1px solid black;
+    height: 1.5em;
+}
+
+.border-black {
+    border: .1em solid black;
+    display: inline;
+}
+
+#city-header {
+    height: 5em;
+    display: flex;
+    justify-content: space-between;    
+    align-content: center;
+    align-items: center;
+}
+
+#show_temp_container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: .5em;
+}
+
+#border_line {
+    border-top: .11em solid black;   
+}
+
+#forecast_flex {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    gap: 1em;
+    flex-flow: wrap;    
+}
+
+.day {
+    flex: 1;
+    margin-top: 1em;
+    background-color: rgb(226, 225, 225);
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.day > h2 {
+    flex: 1;
+    font-family: Verdana, sans-serif;
+    font-size: 2em;
+    margin-top: 1em;
+    text-align: center;
+    font-weight: bold;    
+}
+
+.day > img {
+    flex: 3;
+    margin-top: 1em;     
+    border-radius: 50%;
+    max-height: 15em;
+}
+
+.day > p {
+    flex: 1;
+    margin-top: 1em;
+    font-size: 2em;
+}
+
+.high_low_flex  > .high {
+    font-size: 2em;
+    margin: 0;
+    color: red;
+    font-weight: bold;
+}
+
+.high_low_flex  > .low {
+    font-size: 2em;
+    margin: 0;
+    color: blue;
+    font-weight: bold;
+}
+
+.high_low_flex {
+    flex: 1;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    align-self: flex-start;
+    width: 100%;
+    display:flex;
+    justify-content: space-evenly;    
+}
+
+#cookie_time_container {
+    bottom: 10px;
+    left: 0px;
+    margin-left: 20%;
+    margin-right: 20%;
+    position:fixed;
+}
+
+#cookie_time {
+    border: .1em solid black;
+    margin-top: 1em;
+    padding: 1em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;    
+}
+
+#cookie_time > img {
+    flex: 1;   
+    max-height: 90px;
+    max-width: 90px;   
+    height: auto;
+    width: auto;
+}
+
+#btn_accept {
+    flex: 1;
+    font-size: 2em;
+    padding: .25em;
+    background-color: lightblue;
+    border: .1em solid black;
+    box-shadow: .1em .2em black;
+}
+
+#cookie_text {    
+    flex: 5;
+    margin-left: .5em;
+    margin-right: 5em;    
+}
+
+#cookie_text > h3 {
+    font-weight: bolder;
+    font-size: 2.5em;
+
+}
+
+#cookie_text > p {
+    font-size: 2em;
+
+}
+
