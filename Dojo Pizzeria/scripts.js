@@ -1,4 +1,4 @@
-//Create a pizza with deep dish, traditional, mozzarella, pepperoni an sausage.
+//Create a pizza with deep dish, traditional, mozzarella, pepperoni and sausage.
 console.log(pizzaOven('deep dish', 'traditional', 'mozzarella', ['pepperoni', 'sausage']))
 
 //create a pizza with hand tossed, marinara, mozzarella, feta, and mushrooms, olives, onions.  
