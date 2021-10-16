@@ -1,0 +1,19 @@
+#container {
+    margin: auto;
+    background-color: gray;
+    width: 600px;
+    padding: 10px;
+}
+
+p {
+    color: white;
+    text-align: center;
+    font-size: 2em;
+}
+
+input {
+    padding: 10px 30px;
+    display: block;
+    margin:auto;
+    margin-top: 10px;
+}
