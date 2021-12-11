@@ -65,15 +65,33 @@ class SLL {
             currNode = currNode.next;
         }
     }
+
+    display() {        
+        let currNode = this.head; 
+        let runner = currNode.val;     
+
+        while(currNode.next !== null) {
+            currNode = currNode.next;
+            runner = runner + ' ' + currNode.val;                     
+        }
+        
+        console.log(runner);  
+        return runner;         
+    }
 }
 
 var x = new SLL;
-x.addFront(15);
-x.addFront(20);
-x.addFront(25);
-//console.log(x);
-//x.displayValues();
-x.removeFront();
-x.displayValues();
-x.front();
+
+
+x.addFront('Year');
+x.addFront('New');
+x.addFront('Happy');
+x.addFront('a');
+x.addFront('and');
+x.addFront('Christmas');
+x.addFront('Merry');
+x.addFront('a');
+x.addFront('Have');
+x.display();
+
 
